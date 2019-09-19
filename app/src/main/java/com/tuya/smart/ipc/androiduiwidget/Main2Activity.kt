@@ -16,5 +16,11 @@ class Main2Activity : AppCompatActivity() {
             var intent = Intent(this,SwipeRecyclerViewActivity::class.java)
             startActivity(intent)
         })
+
+        findViewById<Button>(R.id.gallery_snap_btn).setOnClickListener(View.OnClickListener {
+
+            var intent = Intent(this,GallerySnaperActivity::class.java)
+            startActivity(intent)
+        })
     }
 }
