@@ -22,5 +22,17 @@ class Main2Activity : AppCompatActivity() {
             var intent = Intent(this,GallerySnaperActivity::class.java)
             startActivity(intent)
         })
+
+        findViewById<Button>(R.id.smart_btn).setOnClickListener(View.OnClickListener {
+
+            var intent = Intent(this,Main3Activity::class.java)
+            startActivity(intent)
+        })
+
+        findViewById<Button>(R.id.baner_btn).setOnClickListener(View.OnClickListener {
+
+            var intent = Intent(this,Main4Activity::class.java)
+            startActivity(intent)
+        })
     }
 }

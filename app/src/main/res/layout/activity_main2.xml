@@ -10,12 +10,24 @@
     <Button
         android:id="@+id/swipe_btn"
         android:text="swipeRecyclerview"
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"/>
 
     <Button
         android:id="@+id/gallery_snap_btn"
         android:text="galleryRecyclerview"
-        android:layout_width="50dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/smart_btn"
+        android:text="smartRecyclerview"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/baner_btn"
+        android:text="smartRecyclerview"
+        android:layout_width="100dp"
         android:layout_height="50dp"/>
 </LinearLayout>
